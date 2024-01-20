@@ -39,7 +39,7 @@ def extra_2():
     age = int(input("Enter your age : "))
     number = int(input("How many times you want me to print the final message ? : "))
     year = datetime.now().year
-    for i in range(number):
+    for _ in range(number):
         print(f"Hello {name} ! You will be 100 in {year + (100 - age)}.")
 
 def main():
