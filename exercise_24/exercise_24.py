@@ -19,11 +19,11 @@ def exercise_24():
     '''
     Exercise 24 method
     '''
-    value = int(input("Value : "))
-    for _ in range(0, value):
-        print(" ---" * value, end="\n")
-        print("|   " * (value + 1), end="\n")
-    print(" ---" * value, end="\n")
+    board_size = int(input("Board size : "))
+    for _ in range(0, board_size):
+        print(" ---" * board_size, end="\n")
+        print("|   " * (board_size + 1), end="\n")
+    print(" ---" * board_size, end="\n")
 
 def main():
     '''
